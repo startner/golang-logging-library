@@ -1,4 +1,4 @@
-module gitlab.com/backend-logging-library/logging-library
+module github.com/startner/golang-logging-library.git
 
 go 1.19
 

@@ -1,18 +1,18 @@
 # interixa-golang-logging-library
 
-Interixa Golang Library is a logging library powered by zap logger. 
+Startner Golang Library is a logging library powered by zap logger. 
 It is used to support microservice development using golang so that the logging will be synchronized into one package only
 
 ## Installing
 
 ```
-go get gitlab.com/backend-logging-library/logging-library
+go get github.com/startner/golang-logging-library.git
 ```
 
 ### With Version
 
 ```
-go get gitlab.com/backend-logging-library/logging-library@v1.0.0
+go get github.com/startner/golang-logging-library.git@v1.0.0
 ```
 
 ## Initial Setup
