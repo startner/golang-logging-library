@@ -1,4 +1,4 @@
-module github.com/startner/golang-logging-library.git
+module github.com/startner/golang-logging-library
 
 go 1.19
 

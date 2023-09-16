@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"gitlab.com/backend-logging-library/logging-library/logger"
+
+	"github.com/startner/golang-logging-library/logging-library/logger"
 )
 
 func main() {

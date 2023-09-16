@@ -1,4 +1,4 @@
-# interixa-golang-logging-library
+# startner-golang-logging-library
 
 Startner Golang Library is a logging library powered by zap logger. 
 It is used to support microservice development using golang so that the logging will be synchronized into one package only
@@ -26,7 +26,7 @@ logger.InitLogger("Asia/Jakarta")
 ## UUID Usage
 
 UUID is used to identify and trace the logs per request.
-In the current interixa structure, this function should be put in each controller functions after the defer function
+In the current startner structure, this function should be put in each controller functions after the defer function
 ```golang
 logger.SetUUID()
 ```
@@ -39,7 +39,7 @@ Example Usage in main package:
 package main
 
 import (
-	"gitlab.com/backend-logging-library/logging-library/logger"
+	"github.com/startner/golang-logging-library"
 )
 
 func main() {
