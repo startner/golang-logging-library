@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/startner/golang-logging-library/logging-library/logger"
+	"github.com/startner/golang-logging-library/logger"
 )
 
 func main() {
