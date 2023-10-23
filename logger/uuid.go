@@ -2,6 +2,7 @@ package logger
 
 import (
 	"fmt"
+
 	"github.com/google/uuid"
 )
 
@@ -12,7 +13,7 @@ func SetUUID() {
 func generateUUID() string {
 	uuidResult, err := uuid.NewRandom()
 	if err != nil {
-		LogError(fmt.Sprintf("Unable to generate UUID: %v\n", err))
+		LogCustom(ERROR, fmt.Sprintf("Unable to generate UUID: %v\n", err), "Logger.generateUUID", "")
 		return ""
 	}
 	return uuidResult.String()
